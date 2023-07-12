@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "ws": "^8.13.0"
+  },
+  "name": "software_defined_randion",
+  "description": "The purpose of this project is to use a RTL-SDR (Software Defined Radio) in order to receive and determine statistical distribution of samples (Bell's curve).",
+  "version": "1.0.0",
+  "main": "index.mjs",
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index.mjs"
+  },
+  "keywords": [
+    "sdr",
+    "rtl",
+    "bell",
+    "curve",
+    "probability",
+    "statistics",
+    "radio",
+    "canvas",
+    "websocket",
+    "html5",
+    "express"
+  ],
+  "author": "Diego Silva",
+  "license": "WTFPL"
+}

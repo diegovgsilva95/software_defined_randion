@@ -1,0 +1,17 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    height: 100vh;
+}
+body {
+    display: grid;
+    place-items: center;
+    background-color: #000;
+    color: #fff;
+}
+canvas {
+    outline: 1px solid #111;
+    background-color: #111;
+}
